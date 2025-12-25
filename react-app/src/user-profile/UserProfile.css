@@ -1,0 +1,15 @@
+.user__img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.user__container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.user__info {
+  font-size: 25px;
+}
