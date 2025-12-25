@@ -13,14 +13,12 @@
   -moz-osx-font-smoothing: grayscale;
 } */
 
-.main__container{
+body {
+  margin: 0;
+}
+
+.main__container {
   display: flex;
   flex-direction: column;
   gap: 50px;
-}
-
-.main__country-container{
-  display: flex;
-  flex-direction: column;
-  gap: 100px;
 }
