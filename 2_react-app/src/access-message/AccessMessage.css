@@ -1,0 +1,21 @@
+.access-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.access-message__container {
+  padding: 20px 25px;
+  border: 1px solid wheat;
+  border-radius: 10px;
+  background-color: blanchedalmond;
+  font-size: 20px;
+}
+
+.age-minor {
+  color: brown;
+}
+
+.age-adult {
+  color: green;
+}
