@@ -7,3 +7,9 @@
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 }
+
+.main__container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

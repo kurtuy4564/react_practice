@@ -1,7 +1,7 @@
 import './AccessMessage.css'
 import clsx from 'clsx'
 
-function AccessMessage({age}) {
+function AccessMessage({ age }) {
   return (
     <div className='access-message'>
       <div className={clsx('access-message__container', age < 18 ? 'age-minor' : 'age-adult')}>
