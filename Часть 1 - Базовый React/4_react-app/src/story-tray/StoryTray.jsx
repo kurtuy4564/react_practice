@@ -8,3 +8,4 @@ export default function StoryTray({ stories }) {
     </ul>
   )
 }
+
