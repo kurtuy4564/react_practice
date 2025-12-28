@@ -1,0 +1,13 @@
+.background--active {
+  background: violet;
+  border: 5px solid #ffffff;
+}
+
+.picture--active {
+  border: 5px solid #ffffff;
+}
+
+.bg__container {
+  display: flex;
+  justify-content: center;
+}
