@@ -5,6 +5,7 @@ import NameForm from './name-form/NameForm'
 import LoginForm from './login-form/LoginForm'
 import ChoosingFavoriteColor from './choosing-favorite-color/ChoosingFavoriteColor'
 import RegistrationForm from './registration-form/RegistrationForm'
+import CreatePost from './create-post/CreatePost'
 
 function App() {
   const id = useId()
@@ -30,7 +31,7 @@ function App() {
       {/* <RegistrationForm /> */}
 
       {/* 7 Task 'Создание поста с черновиком, отправкой и статусами'*/}
-      
+      <CreatePost/>
     </>
   )
 }
